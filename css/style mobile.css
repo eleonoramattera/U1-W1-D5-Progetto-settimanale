@@ -28,7 +28,7 @@ main {
 }
 
 /* PRIMO DIV */
-main div:first-child {
+main > div:first-child {
   background-image: url("../images/banner.jpg");
   background-position: center;
   background-size: 150%;
@@ -45,7 +45,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
-main div:first-child p {
+main > div:first-child p {
   line-height: 180%;
   margin-top: 15px;
   margin-bottom: 25px;
@@ -75,7 +75,7 @@ h4 {
   font-size: 17px;
 }
 
-main div:nth-child(2) {
+main > div:nth-child(2) {
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -84,14 +84,14 @@ div p {
   line-height: 160%;
 }
 
-main div:nth-child(2) img {
+main > div:nth-child(2) img {
   width: 90%;
   border-radius: 50%;
   margin-top: 20px;
 }
 
 /* TERZO DIV */
-main div:nth-child(3) {
+main > div:nth-child(3) {
   background-color: #e22d0e;
   color: white;
   padding-left: 20px;
@@ -127,7 +127,7 @@ h3 {
 }
 
 /* QUARTO DIV */
-.quattro {
+main > div:nth-child(4) {
   padding-left: 80px;
   padding-right: 80px;
 }
